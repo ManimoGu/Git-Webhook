@@ -21,6 +21,8 @@ router.post("/", upload.single("image"), async (req, res) => {
   }
 });
 
+// nothing to change 
+
 router.get("/", async (req, res) => {
   try {
     let user = await User.find();
