@@ -11,6 +11,7 @@ const AddUser = () => {
     const value = name === "image" ? e.target.files[0] : e.target.value;
     setData({ ...data, [name]: value });
   };
+  // this is a test
   const handleSubmit = async () => {
     try {
       let formData = new FormData();
